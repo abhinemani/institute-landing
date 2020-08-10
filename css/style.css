@@ -156,6 +156,18 @@ a.animated_link.active:before {
   transform: scaleX(1);
 }
 
+a.paragraph-link {
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a.paragraph-link:hover {
+	text-decoration: none;
+	color: white;
+}
+
+
 /*-------- 1.2 Buttons --------*/
 a.btn_1,
 .btn_1 {
